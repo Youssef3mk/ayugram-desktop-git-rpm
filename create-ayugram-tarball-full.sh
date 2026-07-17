@@ -12,7 +12,7 @@ TMPDIR="$(mktemp -d)"
 trap 'rm -rf "$TMPDIR"' EXIT
 
 echo "Cloning AyuGramDesktop with submodules..."
-git clone --recursive "$REPO" "$TMPDIR/$TOPDIR"
+git clone --recursive --depth=1 --shallow-submodules "$REPO" "$TMPDIR/$TOPDIR"
 
 cd "$TMPDIR/$TOPDIR"
 
