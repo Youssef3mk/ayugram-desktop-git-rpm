@@ -25,7 +25,7 @@ Release: 1%{?dist}
 # * expected-lite - BSL-1.0 -- only header lib
 # * minizip - Zlib -- static dependency;
 License: GPL-3.0-or-later AND BSD-3-Clause AND BSD-2-Clause AND Apache-2.0 AND MIT AND LicenseRef-Fedora-Public-Domain AND LGPL-2.1-or-later AND FTL AND MPL-1.1 AND OFL-1.1 AND Unicode-3.0 AND BSL-1.0 AND CC0-1.0 AND Zlib AND Artistic-1.0-Perl AND QPL-1.0
-URL: https://github.com/AyuGram/%{appname}
+URL: https://github.com/Bourbon24k/%{appname}-6.9.3
 Summary: Desktop Telegram client with good customization and Ghost mode
 
 # Upstream doesn't provide full source tarball. AyuGram splited to many git submodules.

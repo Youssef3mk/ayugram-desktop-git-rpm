@@ -17,7 +17,7 @@ jobs:
       - name: fetch latest commit
         id: fetch
         run: |
-          LATEST_SHA=$(git ls-remote https://github.com/AyuGram/AyuGramDesktop.git HEAD | awk '{print $1}')
+          LATEST_SHA=$(git ls-remote https://github.com/Bourbon24k/AyuGramDesktop-6.9.3.git HEAD | awk '{print $1}')
           echo "latest_sha=$LATEST_SHA" >> $GITHUB_OUTPUT
 
       - name: compare hash
