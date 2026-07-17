@@ -3,7 +3,7 @@ set -euo pipefail
 
 SCRIPT_PWD="$(pwd)"
 
-REPO="https://github.com/Bourbon24k/AyuGramDesktop-6.9.3.git"
+REPO="https://github.com/AyuGram/AyuGramDesktop.git"
 
 TOPDIR="AyuGramDesktop-full"
 TARBALL="${TOPDIR}.tar.gz"
